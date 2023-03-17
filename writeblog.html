@@ -1,0 +1,56 @@
+<!doctype HTML>
+<html>
+<head>
+              
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+                
+   <script src="./writeblog.js"></script>
+        
+</head>
+
+<body>
+<center>
+ 
+<h1>
+<font size="10" color="blue"> Write Your Blog </font>
+</h1>
+
+
+<div>
+<form id="writeblog" onsubmit="return false">
+
+<u>Express yourself! Pen down your ideas here...</u> 
+
+<p>
+
+    
+<label for="usertext">Title</label><br/>
+ <input type="text" id="usertext" text-align="left" placeholder="Please enter title" size="30"/>
+<p> 
+
+
+
+ <label for="userbody">Body</label><br/>
+ <textarea cols="30" rows="5" id="userbody" placeholder="Please enter body" ></textarea>
+<p>
+
+
+
+<button type="submit" id="submitblog" class="btn btn-primary">Submit</button>
+<br/>
+</form>
+</div>
+
+
+
+<div>
+        <p id="userdata"></p>
+</div>
+
+<center>
+</body>
+</html>
